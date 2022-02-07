@@ -1,0 +1,8 @@
+int b;
+char a;
+int i;
+pour i dans 1 . 5 faire 
+i := (i + 1) * 5 % 8;
+fpour;
+ecrire i;
+fin

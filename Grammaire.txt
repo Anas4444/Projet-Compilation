@@ -1,0 +1,29 @@
+P -> S fin 
+S -> LD LI
+S -> LI
+LD -> LD D pv     
+LD -> D pv
+LI -> LI I pv 
+LI -> I pv
+D -> type id
+I -> id oppaff ORE 
+I -> ecrire ORE
+I -> lire id
+I -> si ORE alors LI fsi
+I -> si ORE alors LI sinon LI fsi
+I -> pour id dans nb point nb faire LI fpour
+ORE -> ORE ou ANDE
+ORE -> ANDE
+ANDE -> ANDE et ADDE
+ANDE -> ADDE
+ADDE -> ADDE oppar PE 
+ADDE -> PE opprel PE
+ADDE -> PE
+PE -> id
+PE -> nb
+PE -> nb v nb
+PE -> vrai
+PE -> faux
+PE -> litteral
+PE -> po ORE pf
+PE -> non PE
